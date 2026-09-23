@@ -10,7 +10,7 @@ This is a static web app. The browser stores demo data in localStorage, and the 
 2. Under **Build and deployment**, choose **GitHub Actions** as the source.
 3. Push to `main` or run the `Deploy QuestTrack to GitHub Pages` workflow manually.
 
-The included workflow publishes `public/` on pushes to `main` or `master`. GitHub Pages must be enabled once in repository settings before the workflow can configure and deploy the site.
+The included workflow publishes `public/` on pushes to `main` or `master`. Select **GitHub Actions** as the Pages source; the default branch-based Pages builder publishes this README instead of the app. GitHub Pages must be enabled once in repository settings before the workflow can configure and deploy the site.
 
 The app uses hash-based navigation so dashboard pages continue working when hosted beneath a repository URL such as `https://b-g-giridharan.github.io/QuestTrack/`.
 
